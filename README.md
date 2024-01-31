@@ -1,2 +1,2 @@
 # Random Message
-this is a javascript program to run a random message about code
+this is a javascript program to run a random message about coding

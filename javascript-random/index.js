@@ -1,7 +1,7 @@
 const firstWord = [
-'learning',
-'practicing',
-'applying'
+'Using',
+'Adding',
+'Applying'
 ];
 
 const secondWord = [
@@ -12,7 +12,7 @@ const secondWord = [
 
 const thirdWord = [
 'amazing',
-'unique',
+'incrdiable',
 'advanced'
 ];
 
@@ -21,8 +21,7 @@ const randomSentence = () => {
     const randomTwo = secondWord[Math.floor(Math.random() * secondWord.length)];
     const randomThree = thirdWord[Math.floor(Math.random() * thirdWord.length)];
 
-    const message = `${randomOne} ${randomTwo} to your project help you  
-    build a/an ${randomThree} program`
+    const message = `${randomOne} ${randomTwo} to your project help you build an ${randomThree} program`
 
     return message;
 }
